@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JDD Total Clean | Nettoyage Professionnel Belgique</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+/* HERO */
+header {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+header img {
+  width: 110px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: 400;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-whatsapp {
+  background: #25D366;
+  color: white;
+  box-shadow: 0 10px 25px rgba(37,211,102,0.3);
+}
+
+.btn-whatsapp:hover {
+  transform: translateY(-2px);
+}
+
+.btn-dark {
+  background: white;
+  color: #0f172a;
+}
+
+/* SECTION */
+section {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+/* SERVICES */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px,1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.service {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+}
+
+/* CTA BOX */
+.cta-box {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+/* FOOTER */
+footer {
+  background: #0f172a;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* FLOAT BUTTON */
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #25D366;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="logo.png" alt="Logo">
+
+  <h1>JDD Total Clean</h1>
+  <h2>Nettoyage professionnel en Belgique</h2>
+
+  <a class="btn btn-whatsapp"
+     href="https://wa.me/32483558874?text=Bonjour%20je%20souhaite%20un%20devis"
+     target="_blank">
+     📲 Devis WhatsApp
+  </a>
+
+  <a class="btn btn-dark" href="#services">
+     Voir services
+  </a>
+</header>
+
+<section id="services">
+  <div class="section-title">Nos services</div>
+
+  <div class="services">
+    <div class="service">Nettoyage après chantier</div>
+    <div class="service">Bureaux professionnels</div>
+    <div class="service">Cuisine & hotte</div>
+    <div class="service">Sinistres (incendie / eau)</div>
+    <div class="service">Nettoyage Diogène</div>
+    <div class="service">Déménagement</div>
+    <div class="service">Terrasses & extérieurs</div>
+    <div class="service">Nettoyage complet entreprise</div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Devis rapide</div>
+
+  <div class="cta-box">
+    <p style="margin-bottom:20px;">
+      Envoyez-nous votre demande en quelques secondes avec photos pour un devis rapide.
+    </p>
+
+    <a class="btn btn-whatsapp"
+       href="https://wa.me/32483558874?text=Bonjour%20JDD%20Total%20Clean,%20je%20souhaite%20un%20devis.%20Type:%20...%20Ville:%20..."
+       target="_blank">
+       📲 Demander un devis maintenant
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2026 JDD Total Clean - Tous droits réservés
+</footer>
+
+<a class="whatsapp-float"
+   href="https://wa.me/32483558874?text=Bonjour%20je%20souhaite%20un%20devis"
+   target="_blank">
+  WhatsApp
+</a>
+
+</body>
+</html>
